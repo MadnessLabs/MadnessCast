@@ -1,17 +1,17 @@
 import { flush, render } from '@stencil/core/testing';
-import { MyComponent } from './my-component';
+import { MadnessCast } from './madness-cast';
 
-describe('my-component', () => {
+describe('madness-cast', () => {
   it('should build', () => {
-    expect(new MyComponent()).toBeTruthy();
+    expect(new MadnessCast()).toBeTruthy();
   });
 
   describe('rendering', () => {
     let element;
     beforeEach(async () => {
       element = await render({
-        components: [MyComponent],
-        html: '<my-component></my-component>'
+        components: [MadnessCast],
+        html: '<madness-cast></madness-cast>'
       });
     });
 

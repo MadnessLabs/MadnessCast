@@ -25,29 +25,27 @@ declare global {
 
 
 declare global {
-  interface HTMLMyComponentElement extends HTMLStencilElement {
-    'first': string;
-    'last': string;
+  interface HTMLMadnessCastElement extends HTMLStencilElement {
+    'episode': string;
   }
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  var HTMLMadnessCastElement: {
+    prototype: HTMLMadnessCastElement;
+    new (): HTMLMadnessCastElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'madness-cast': HTMLMadnessCastElement;
   }
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'madness-cast': HTMLMadnessCastElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'my-component': JSXElements.MyComponentAttributes;
+      'madness-cast': JSXElements.MadnessCastAttributes;
     }
   }
   namespace JSXElements {
-    export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+    export interface MadnessCastAttributes extends HTMLAttributes {
+      'episode'?: string;
     }
   }
 }

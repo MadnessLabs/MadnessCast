@@ -1,6 +1,6 @@
 exports.config = {
-  namespace: 'mycomponent',
-  outputTargets:[
+  namespace: 'madnesscast',
+  outputTargets: [
     { type: 'dist' },
     { type: 'www' }
   ]
