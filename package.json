@@ -1,6 +1,6 @@
 {
     "name": "madnesscast",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A sample component made for Madness Casts by Madness Labs",
     "main": "dist/madnesscast.js",
     "types": "dist/types/index.d.ts",
